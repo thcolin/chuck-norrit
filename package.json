@@ -1,0 +1,19 @@
+{
+  "name": "chuck-norrit",
+  "version": "1.0.0",
+  "description": "Lightweight choo web-app to retrieve Chuck Norris facts",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js -p 3000 --no-debug -- -b bundle-collapser/plugin -g yo-yoify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thcolin",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^6.5.1"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "yo-yoify": "^4.1.0"
+  }
+}
