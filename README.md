@@ -1,5 +1,5 @@
 # Chuck-Norrit
-:muscle: :facepunch: Lightweight web-app to query [chucknorris.io](https://api.chucknorris.io/) and retrieve *awesome* facts about *the one and the only* **CHUCK NORRIS** !
+🏋 🥊 Lightweight web-app to query [chucknorris.io](https://api.chucknorris.io/) and retrieve *awesome* facts about *the one and the only* **CHUCK NORRIS** !
 
 ## Technologies
 * Frontend framework : [choo](https://github.com/choojs/choo)
@@ -19,10 +19,11 @@
 * Just run `[npm|yarn] install` and `[npm|yarn] run start`
 
 ## Tests
-* Hello world !
+* Just run `[npm|yarn] test`
 
 ## Warning
-* `fetch` need to be polyfilled with [github/fetch](https://github.com/github/fetch)
-* Add `tests`
-* Add a `button[type="submit"]` in `form`
-* Improve design with `emojis` and stuff !
+* [ ] `fetch` need to be polyfilled with [github/fetch](https://github.com/github/fetch)
+  * see [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) and ` -t babelify`
+* [ ] Add `tests`
+* [x] Add a `button[type="submit"]` in `form`
+* [x] Improve design with `emojis` and stuff !
