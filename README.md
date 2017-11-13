@@ -5,6 +5,7 @@
 * Frontend framework : [choo](https://github.com/choojs/choo)
   * Small and lightweight (`4kb`) frontend functional programming framework
   * Shipped with a default state manager
+  * Knew it for a few months, but didn't have the opportunity to test it !
 * Dev server : [budo](https://github.com/mattdesl/budo)
   * Easy to use and livereloading for rapid prototyping
   * I didn't have enough free time to implement `webpack` and a `build` script, sorry 😥
@@ -15,16 +16,13 @@
 
 ## Problematic
 * Why use a state manager for such a small app ?
+  * Needed for various features (like being aware of `fetching` status or previous `request` for example)
+  * Simple concept helping you to define a consistent flow in your application
+  * Help you to store all application data in one place accessible "everywhere"
+  * Very good scalability 📈❤️
 
 ## Install & run
 * Just run `[npm|yarn] install` and `[npm|yarn] run start`
 
 ## Tests
 * Just run `[npm|yarn] test`
-
-## Warning
-* [x] `fetch` need to be polyfilled with [github/fetch](https://github.com/github/fetch)
-  * see [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) and ` -t babelify`
-* [ ] Add `tests`
-* [x] Add a `button[type="submit"]` in `form`
-* [x] Improve design with `emojis` and stuff !

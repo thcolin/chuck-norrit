@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "budo index.js:bundle.js -p 3000 --no-debug -- -b bundle-collapser/plugin -t babelify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests.js"
   },
   "author": "thcolin",
   "license": "ISC",
@@ -18,6 +18,8 @@
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
     "budo": "^10.0.4",
+    "spok": "^0.9.0",
+    "tape": "^4.8.0",
     "whatwg-fetch": "^2.0.3"
   }
 }
