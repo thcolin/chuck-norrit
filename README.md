@@ -7,6 +7,7 @@
   * Shipped with a default state manager
 * Dev server : [budo](https://github.com/mattdesl/budo)
   * Easy to use and livereloading for rapid prototyping
+  * I didn't have enough free time to implement `webpack` and a `build` script, sorry 😥
 
 ## Features
 * Just search for a fact with the `form.input[type="search"]` !
@@ -22,7 +23,7 @@
 * Just run `[npm|yarn] test`
 
 ## Warning
-* [ ] `fetch` need to be polyfilled with [github/fetch](https://github.com/github/fetch)
+* [x] `fetch` need to be polyfilled with [github/fetch](https://github.com/github/fetch)
   * see [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) and ` -t babelify`
 * [ ] Add `tests`
 * [x] Add a `button[type="submit"]` in `form`

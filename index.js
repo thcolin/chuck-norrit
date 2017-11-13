@@ -2,6 +2,8 @@ const choo = require('choo')
 const html = require('choo/html')
 const main = require('./templates/main')
 
+require('whatwg-fetch')
+
 const app = choo()
 
 const STATE_FETCHING = 'fetching'

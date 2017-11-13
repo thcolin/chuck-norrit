@@ -4,7 +4,7 @@
   "description": "Lightweight choo web-app to retrieve Chuck Norris facts",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js -p 3000 --no-debug -- -b bundle-collapser/plugin -g yo-yoify",
+    "start": "budo index.js:bundle.js -p 3000 --no-debug -- -b bundle-collapser/plugin -t babelify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "thcolin",
@@ -13,7 +13,11 @@
     "choo": "^6.5.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-yo-yoify": "^1.0.1",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
     "budo": "^10.0.4",
-    "yo-yoify": "^4.1.0"
+    "whatwg-fetch": "^2.0.3"
   }
 }
